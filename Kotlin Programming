@@ -12,3 +12,5 @@ fun main() {
     }else {
         println("false")
     }
+  //check list is empty or not
+    list.isNotEmpty()
