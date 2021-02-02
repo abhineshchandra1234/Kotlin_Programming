@@ -1,0 +1,4 @@
+//for debugging put inside activity and run
+fun main() {
+  println("hello world")
+}
