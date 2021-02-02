@@ -2,3 +2,13 @@
 fun main() {
   println("hello world")
 }
+
+//list
+  //declare list
+    val list = listOf(1,2,3)
+  //check element in list
+    if (5 in list) {
+        println("true")
+    }else {
+        println("false")
+    }
