@@ -14,3 +14,7 @@ fun main() {
     }
   //check list is empty or not
     list.isNotEmpty()
+  //difference between two lists in kotlin
+    val first = listOf(1, 2, 3, 4, 5)
+    val second = listOf(1, 2, 3)
+    val difference = first.minus(second)    // [4, 5]
