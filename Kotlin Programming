@@ -18,3 +18,9 @@ fun main() {
     val first = listOf(1, 2, 3, 4, 5)
     val second = listOf(1, 2, 3)
     val difference = first.minus(second)    // [4, 5]
+//add two lists 
+  var a = mutableListOf(1,2,3)
+    var b = mutableListOf(4,5,6)
+    var r = mutableListOf<Int>()
+    r.addAll(a)
+    r.addAll(b)
