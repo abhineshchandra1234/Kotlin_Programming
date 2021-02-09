@@ -24,3 +24,5 @@ fun main() {
     var r = mutableListOf<Int>()
     r.addAll(a)
     r.addAll(b)
+//generate random integer
+   val index = Random.nextInt(8)
