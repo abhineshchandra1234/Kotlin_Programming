@@ -6,6 +6,8 @@ fun main() {
 //list
   //convert list to string
     listno.joinToString(separator = ",") -- will return list as string seperated by  comma
+ //convert string to list
+    val list: List<String> = b.split(",").toList()
   //declare list
     val list = listOf(1,2,3)
   //check element in list
