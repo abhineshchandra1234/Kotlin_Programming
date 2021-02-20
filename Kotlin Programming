@@ -31,4 +31,7 @@ fun main() {
 //generate random integer
    val index = Random.nextInt(8)
 //try & catch
-   try {}catch (e: Exception) { }
+   try {}
+   catch (e: Exception) {
+   Toast.makeText(this@MainActivity, e.message, Toast.LENGTH_LONG).show()
+   }
