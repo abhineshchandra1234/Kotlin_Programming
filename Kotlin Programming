@@ -30,3 +30,5 @@ fun main() {
     r.addAll(b)
 //generate random integer
    val index = Random.nextInt(8)
+//try & catch
+   try {}catch (e: Exception) { }
