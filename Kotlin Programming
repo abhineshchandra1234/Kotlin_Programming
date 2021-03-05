@@ -28,6 +28,10 @@ fun main() {
     var r = mutableListOf<Int>()
     r.addAll(a)
     r.addAll(b)
+//iterate
+  list.forEach { i ->       //list should be of string type
+            availableRacksList.add(i.toInt())
+        }
 //generate random integer
    val index = Random.nextInt(8)
 //try & catch
