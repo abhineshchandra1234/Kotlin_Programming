@@ -39,3 +39,9 @@ fun main() {
    catch (e: Exception) {
    Toast.makeText(this@MainActivity, e.message, Toast.LENGTH_LONG).show()
    }
+//nullable variable
+   /* var b : String? = "1,2,3,4,5"
+     b = null
+
+    println(b) */
+    //null
